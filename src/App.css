@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+.count-wrapper {
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.count-wrapper h1 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.count-wrapper button {
+  width: 100px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.todo-list {
+  text-align: left;
+  
+}
+.todo-wrapper button {
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+}
+
+
+.todo-list div {
+  display: inline-block;
+  border: 1px solid;
+}
+
+.tno {
+  width: 100px;
+  text-align: center;
+}
+
+.title {
+  width: 400px;
+  padding-left: 10px;
+}
+
+.date{
+  width: 200px;
+  text-align: center;
 }
