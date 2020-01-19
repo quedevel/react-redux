@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import {increase, decrease} from '../../actions'
+import { increase, decrease } from '../../actions'
 
 const CountButtons = () => {
 
@@ -14,7 +14,7 @@ const CountButtons = () => {
         dispatch(decrease())
     }
 
-    return(
+    return (
         <div>
             <button onClick={handleInc}>INC</button>
             <button onClick={handleDec}>DEC</button>
