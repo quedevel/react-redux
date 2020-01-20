@@ -1,12 +1,12 @@
 
 
-const initState = {arr:[]}
+const initState = { arr: [] }
 
-export default function todoReducer(state=initState,action){
+export default function todoReducer(state = initState, action) {
 
-    const {type, payload} = action
+    const { type, payload } = action
 
-    if(type ==! "TODO") return state
+    if (type == ! "TODO") return state
 
     return state
 }
